@@ -17,6 +17,10 @@ body{
     margin: 9px;
     
 }
+#small-screen{
+    display: none;
+}
+
 
 li{
     color: white;
@@ -157,6 +161,10 @@ li{
     .app-box{
         margin: auto;
     }
+    #small-screen{
+        display: inline;
+    }
+    
 
 }
 
