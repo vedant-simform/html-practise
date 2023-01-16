@@ -1,3 +1,133 @@
 body{
     background-color: aqua;
 }
+#nav-image{
+    float: left;
+    height: 35px;
+    margin: 10px;
+}
+.nav-bar{
+    background-color: black;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+#nav-ul{
+    list-style: none;
+    margin: 9px;
+    
+}
+
+li{
+    color: white;
+    float: left;
+    padding: 10px;
+
+}
+
+#ul-inside{
+    /* float: right; */
+    list-style: none;
+    margin: auto 10px;    
+    border-radius: 20px;
+}
+
+.anch{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px;
+}
+
+input{
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    text-align: center;
+    display: block;
+    
+}
+
+#main-image{
+    height: 100px;
+    /* display: block; */
+    margin: 5% auto;
+}
+
+
+.img-ul{
+    list-style: none;
+    /* display: inline; */
+    float: right;
+    
+}
+
+.img-ul li{
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_div{
+    background-color: #503333;
+    box-sizing: content-box;
+    display: flex;
+    /* max-width: fit-content; */
+    justify-content: space-evenly;
+    
+    
+}
+
+div.inside{
+    /* border: 2px solid rebeccapurple; */
+   /* max-width: 30%; */
+    /* min-width: 300px; */
+    background-color: white;
+    width: 500px;
+    /* position:absolute;
+    left: 50%; */
+    text-align: center;
+    /* margin: auto; */
+    outline: auto;
+    outline-color: black;
+    padding: 100px;
+    
+
+}
+
+
+.clickable:hover{
+    color: black;
+    background-color: #bb2c2c;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+
+    /* ---------Below property will not be effective as it's inline element */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin: auto; */
+}
+
+/* .ptag{
+    text-align: justify;
+} */
+
+/* .header_set{
+    text-align: left;
+} */
+
+
